@@ -38,6 +38,7 @@ h1 span {
 }
 
 .new-line {
+	display: block;
 	font-family: 'Rowdies';
 	font-size: 2.4rem;
 	line-height: 4.8rem;
