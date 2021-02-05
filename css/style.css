@@ -8,13 +8,12 @@
 
 /* step 5: Choose your typographic scale */
 /* 12, 14, 16, 18, 24, 36, 48, 60, 72, 96 */
+
 html {
 	font-size: 62.5%;
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	/* font-size: 100%; */
 	line-height: 1.5;
 	background-image: linear-gradient(#0ff 1px, transparent 1px);
     background-size: auto 24px;
@@ -34,7 +33,11 @@ h1 {
 }
 
 h1 span {
-	display: block;
+	font-size: 7.2rem;
+	line-height: 12rem;
+}
+
+h1 div {
 	font-family: 'Rowdies';
 	font-size: 2.4rem;
 	line-height: 4.8rem;
@@ -54,12 +57,12 @@ h2 {
 p {
 	font-size: 1.6rem;
 	line-height: 2.4rem;
-	padding: 0 690px;
 }
 
 .fable-one {
 	background-color: #9e7d87;
 	color: #312422;
+	padding-top: 264px;
 }
 
 .fable-one h2 {
@@ -91,7 +94,8 @@ p {
 	font-family: 'Caladea';
 	font-size: 1.8rem;
 	line-height: 2.4rem;
-	margin: 24px 0;
+	width: 540px;
+	margin: 24px auto 0 auto;
 }
 
 .fable-one p:last-child {
@@ -100,24 +104,40 @@ p {
 
 .fable-two {
 	background-color: #8691b1;
+	padding: 240px 0 0 0;
 }
 
 .fable-two h2 {
 	font-family: 'Alatsi';
 	font-size: 7.2rem;
 	line-height: 12rem;
+	color: #121530;
 }
 
 .column {
 	display: flex;
 	justify-content: center;
+	margin: 0 auto;
 }
 
 .fable-two p {
 	font-family: 'Karla';
+	color: #1f3041;
 	padding: 0;
-	width: 16%;
+	width: 304px;
 	margin: 0 30px;
+}
+
+.images {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin: 174px auto 0 auto;
+	width: 1500px;
+}
+
+.images img {
+	width: 100px;
 }
 
 .fable-three {
@@ -131,6 +151,7 @@ p {
 	font-family: 'Beth Ellen';
 	font-size: 6rem;
 	line-height: 9.6rem;
+	color: #3b2d24;
 	margin-right: 100px;
 	text-align: right;
 	width: 460px;
@@ -138,6 +159,7 @@ p {
 
 .fable-three p {
 	font-family: 'IM Fell DW Pica';
+	color: #273321;
 	padding: 24px;
 	width: 337px;
 	background-color: #d5dfb8;
@@ -149,6 +171,7 @@ p {
 
 .fable-four {
 	background-color: #c08e60;
+	color: #33261f;
 }
 
 .fable-four h2 {
@@ -161,8 +184,9 @@ p {
 	font-family: 'Sulphur Point';
 	font-size: 1.8rem;
 	line-height: 2.4rem;
-	margin-top: 48px;
+	margin: 48px auto 0 auto;
 	text-align: center;
+	width: 540px;
 }
 
 .fable-four span {
@@ -170,7 +194,7 @@ p {
 	line-height: 4.8rem;
 	font-style: italic;
 	font-weight: bold;
-	color: #e7ddd5;
-	background-color: #473c38;
+	color: #f1e1d3;
+	background-color: #443d39;
 	padding: 12px;
 }
