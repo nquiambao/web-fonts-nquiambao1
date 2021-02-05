@@ -1,0 +1,174 @@
+/* step 1: Choose a font-family (all font pairings) [font-family]*/
+
+/* step 2: Set default font-size [font-size]*/
+
+/* step 3: Choose grid unit size [line-height]*/
+
+/* step 4: Display a vertical grid */
+
+/* step 5: Choose your typographic scale */
+/* 12, 14, 16, 18, 24, 36, 48, 60, 72, 96 */
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	/* font-size: 100%; */
+	line-height: 1.5;
+	background-image: linear-gradient(#0ff 1px, transparent 1px);
+    background-size: auto 24px;
+}
+
+header {
+	padding: 36px 0;
+	background-color: #312c2b;
+	text-align: center;
+	color: #d8d8d8;
+}
+
+h1 {
+	font-family: 'Cinzel Decorative';
+	font-size: 6rem;
+	line-height: 9.6rem;
+}
+
+h1 span {
+	display: block;
+	font-family: 'Rowdies';
+	font-size: 2.4rem;
+	line-height: 4.8rem;
+	letter-spacing: 1rem;
+	text-transform: uppercase;
+	margin-top: -24px;
+}
+
+section {
+	padding: 240px 0;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	padding: 0 690px;
+}
+
+.fable-one {
+	background-color: #9e7d87;
+	padding: 216px 0 192px 0;
+	color: #312422;
+}
+
+.fable-one h2 {
+	font-family: 'Sansita';
+	font-size: 3.6rem;
+	line-height: 4.8rem;
+	display: flex;
+	justify-content: space-around;
+	width: 840px;
+	margin: 0 auto;
+}
+
+.fable-one .cat,
+.fable-one .birds {
+	font-size: 6rem;
+	line-height: 9.6rem;
+	color: #f3eaed;
+}
+
+.fable-one .cat {
+	margin-top: -72px;
+}
+
+.fable-one .birds {
+	margin-top: 24px;
+}
+
+.fable-one p {
+	font-family: 'Caladea';
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+	margin: 24px 0;
+}
+
+.fable-one p:last-child {
+	color: #f3eaed;
+}
+
+.fable-two {
+	background-color: #8691b1;
+}
+
+.fable-two h2 {
+	font-family: 'Alatsi';
+	font-size: 7.2rem;
+	line-height: 12rem;
+}
+
+.column {
+	display: flex;
+	justify-content: center;
+}
+
+.fable-two p {
+	font-family: 'Karla';
+	padding: 0;
+	width: 16%;
+	margin: 0 30px;
+}
+
+.fable-three {
+	background-color: #9caf83;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.fable-three h2 {
+	font-family: 'Beth Ellen';
+	font-size: 6rem;
+	line-height: 9.6rem;
+	margin-right: 100px;
+	text-align: right;
+	width: 460px;
+}
+
+.fable-three p {
+	font-family: 'IM Fell DW Pica';
+	padding: 24px;
+	width: 337px;
+	background-color: #d5dfb8;
+	margin-top: 96px;
+}
+
+.fable-four {
+	background-color: #c08e60;
+}
+
+.fable-four h2 {
+	font-family: 'Sue Ellen Francisco';
+	font-size: 6rem;
+	line-height: 9.6rem;
+}
+
+.fable-four p {
+	font-family: 'Sulphur Point';
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+	margin-top: 48px;
+	text-align: center;
+}
+
+.fable-four span {
+	font-size: 2.4rem;
+	line-height: 4.8rem;
+	font-style: italic;
+	font-weight: bold;
+	color: #e7ddd5;
+	background-color: #473c38;
+	padding: 12px;
+}
