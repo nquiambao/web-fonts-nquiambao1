@@ -59,7 +59,6 @@ p {
 
 .fable-one {
 	background-color: #9e7d87;
-	padding: 216px 0 192px 0;
 	color: #312422;
 }
 
@@ -143,6 +142,9 @@ p {
 	width: 337px;
 	background-color: #d5dfb8;
 	margin-top: 96px;
+	border-radius: 3px;
+	border-bottom-right-radius: 100px;
+	box-shadow: -5px 5px 5px 0 #80967b;
 }
 
 .fable-four {
