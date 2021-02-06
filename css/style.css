@@ -27,7 +27,7 @@ header {
 }
 
 h1 {
-	font-family: 'Cinzel Decorative';
+	font-family: 'Cinzel Decorative', serif;
 	font-size: 6rem;
 	line-height: 9.6rem;
 }
@@ -39,7 +39,7 @@ h1 span {
 
 .new-line {
 	display: block;
-	font-family: 'Rowdies';
+	font-family: 'Rowdies', sans-serif;
 	font-size: 2.4rem;
 	line-height: 4.8rem;
 	letter-spacing: 1rem;
@@ -67,7 +67,7 @@ p {
 }
 
 .fable-one h2 {
-	font-family: 'Sansita';
+	font-family: 'Sansita', sans-serif;
 	font-size: 3.6rem;
 	line-height: 4.8rem;
 	display: flex;
@@ -92,7 +92,7 @@ p {
 }
 
 .fable-one p {
-	font-family: 'Caladea';
+	font-family: 'Caladea', serif;
 	font-size: 1.8rem;
 	line-height: 2.4rem;
 	width: 540px;
@@ -109,7 +109,7 @@ p {
 }
 
 .fable-two h2 {
-	font-family: 'Alatsi';
+	font-family: 'Alatsi', sans-serif;
 	font-size: 7.2rem;
 	line-height: 12rem;
 	color: #121530;
@@ -122,7 +122,7 @@ p {
 }
 
 .fable-two p {
-	font-family: 'Karla';
+	font-family: 'Karla', sans-serif;
 	color: #1f3041;
 	padding: 0;
 	width: 304px;
@@ -149,7 +149,7 @@ p {
 }
 
 .fable-three h2 {
-	font-family: 'Beth Ellen';
+	font-family: 'Beth Ellen', cursive;
 	font-size: 6rem;
 	line-height: 9.6rem;
 	color: #3b2d24;
@@ -159,7 +159,7 @@ p {
 }
 
 .fable-three p {
-	font-family: 'IM Fell DW Pica';
+	font-family: 'IM Fell DW Pica', serif;
 	color: #273321;
 	padding: 24px;
 	width: 337px;
@@ -176,13 +176,13 @@ p {
 }
 
 .fable-four h2 {
-	font-family: 'Sue Ellen Francisco';
+	font-family: 'Sue Ellen Francisco', cursive;
 	font-size: 6rem;
 	line-height: 9.6rem;
 }
 
 .fable-four p {
-	font-family: 'Sulphur Point';
+	font-family: 'Sulphur Point', sans-serif;
 	font-size: 1.8rem;
 	line-height: 2.4rem;
 	margin: 48px auto 0 auto;
