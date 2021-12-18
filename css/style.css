@@ -1,3 +1,67 @@
+/* DMIT2033 - ANIMATION */
+
+.animal-holder {
+	animation: hop 0.4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 1s;
+}
+
+.lion {
+	animation: walkleft 8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 1s;
+	transform: scaleX(-1);
+}
+
+.mouse {
+	animation: walkright 8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 1s;
+	transform: scaleX(-1);
+}
+
+@keyframes walkleft {
+	3% {
+		transform: translate(0) scaleX(1);
+	}
+
+	50% {
+		transform: translate(-400%) scaleX(1);
+	}
+
+	53% {
+		transform: translate(-400%) scaleX(-1);
+	}
+}
+
+@keyframes walkright {
+	3% {
+		transform: translate(0) scaleX(1);
+	}
+
+	50% {
+		transform: translate(400%) scaleX(1);
+	}
+
+	53% {
+		transform: translate(400%) scaleX(-1);
+	}
+}
+
+@keyframes hop {
+	0%, 100% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-5px);
+	}
+}
+
+
 /* step 1: Choose a font-family (all font pairings) [font-family]*/
 
 /* step 2: Set default font-size [font-size]*/
@@ -20,7 +84,7 @@ body {
 }
 
 header {
-	padding: 36px 0;
+	padding: 3.6rem 0 2.4rem;
 	background-color: #312c2b;
 	text-align: center;
 	color: #d8d8d8;
@@ -47,8 +111,72 @@ h1 span {
 	margin-top: -24px;
 }
 
+nav {
+	background-color: #312c2b;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	gap: 2rem;
+	max-width: 100rem;
+	margin: 0 auto;
+	padding-bottom: 0.2rem;
+}
+
+nav ul li a {
+	font-size: 1.8rem;
+	font-family: 'Karla', sans-serif;
+	text-decoration: none;
+	color: #c19556;
+	white-space: nowrap;
+	padding: 2.4rem 1rem;
+	display: block;
+	transition: 0.2s ease-out;
+	position: relative;
+}
+
+nav ul li a::after {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #966c4b;
+	transform: scale(0);
+	opacity: 0;
+	transition: 0.2s ease-out;
+}
+
+nav ul li a:hover {
+	color: #966c4b;
+}
+
+nav ul li a:hover::after {
+	transform: scale(1);
+	opacity: 1;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+
+.sticky + main {
+	padding-top: 7rem;
+}
+
+main {
+	width: 100%;
+}
+
 section {
-	padding: 240px 0;
+	height: 100vh;
+	padding-top: 24rem;
 }
 
 h2 {
@@ -63,7 +191,7 @@ p {
 .fable-one {
 	background-color: #9e7d87;
 	color: #312422;
-	padding-top: 264px;
+	padding-top: 30rem;
 }
 
 .fable-one h2 {
@@ -105,7 +233,7 @@ p {
 
 .fable-two {
 	background-color: #8691b1;
-	padding: 240px 0 0 0;
+	position: relative;
 }
 
 .fable-two h2 {
@@ -133,12 +261,15 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	margin: 174px auto 0 auto;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	gap: 2rem;
 }
 
 .images img {
 	width: 100px;
-	margin: 0 400px;
 }
 
 .fable-three {
